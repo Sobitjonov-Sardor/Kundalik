@@ -1,0 +1,8 @@
+@media (max-width: 567.99px) {
+    .card img {
+        width: 100%;
+    }
+    .student {
+        max-width: 360px;
+    }
+}
