@@ -191,10 +191,11 @@
     <section class="journal" id="journal">  
      <div class="container journal__content">
       <form class="admin">
-        <input type="password" class="admin__kod pinkod">
+        <input type="password" class="admin__kod" placeholder="Добро пожаловать">
         <input type="submit" class="send pinkod">
+        <a href="#!" class="close">X</a>
       </form>
-       <div class="students active">
+       <div class="students ">
         <div class="student">
           <p class="student__number">
             №
@@ -203,9 +204,9 @@
             Фамилия Имя
           </p>
           <div class="student__attendance">
-            <button class="plus__minus minus">-</button>
+            <button class="plus__minus minus" data-symbol="-">-</button>
             <span>0</span>
-            <button class="plus__minus minus">+</button>
+            <button class="plus__minus plus" data-symbol="+">+</button>
           </div>
         </div>
         <div class="student">
@@ -216,9 +217,9 @@
             Абдужаббарова Зайнаб
           </p>
           <div class="student__attendance">
-            <button class="plus__minus minus">-</button>
+            <button class="plus__minus minus" data-symbol="-">-</button>
             <span class="amount">0</span>
-            <button class="plus__minus minus">+</button>
+            <button class="plus__minus plus" data-symbol="+">+</button>
           </div>
         </div>
         <div class="student">
@@ -229,9 +230,9 @@
             Абдурасулова Сугдиёна
           </p>
           <div class="student__attendance">
-            <button class="plus__minus minus">-</button>
-            <output class="amount">0</output>
-            <button class="plus__minus minus">+</button>
+            <button class="plus__minus minus" data-symbol="-">-</button>
+            <span class="amount">0</span>
+            <button class="plus__minus plus" data-symbol="+">+</button>
           </div>
         </div>
         <div class="student">
@@ -242,9 +243,9 @@
             Абдуразакова Диёра
           </p>
           <div class="student__attendance">
-            <button class="plus__minus minus">-</button>
+            <button class="plus__minus minus" data-symbol="-">-</button>
             <span class="amount">0</span>
-            <button class="plus__minus minus">+</button>
+            <button class="plus__minus plus" data-symbol="+">+</button>
           </div>
         </div>
         <div class="student">
@@ -255,9 +256,9 @@
             Алексеев Артем
           </p>
           <div class="student__attendance">
-            <button class="plus__minus minus">-</button>
+            <button class="plus__minus minus" data-symbol="-">-</button>
             <span class="amount">0</span>
-            <button class="plus__minus minus">+</button>
+            <button class="plus__minus plus" data-symbol="+">+</button>
           </div>
         </div>
         <div class="student">
@@ -270,7 +271,7 @@
           <div class="student__attendance">
             <button class="plus__minus minus">-</button>
             <span class="amount">0</span>
-            <button class="plus__minus minus">+</button>
+            <button class="plus__minus plus">+</button>
           </div>
         </div>
         <div class="student">
@@ -281,9 +282,9 @@
             Аркабаев Самандар
           </p>
           <div class="student__attendance">
-            <button class="plus__minus minus">-</button>
+            <button class="plus__minus minus" data-symbol="-">-</button>
             <span class="amount">0</span>
-            <button class="plus__minus minus">+</button>
+            <button class="plus__minus plus" data-symbol="+">+</button>
           </div>
         </div>
         <div class="student">
@@ -294,9 +295,9 @@
             Артыкова Севинч
           </p>
           <div class="student__attendance">
-            <button class="plus__minus minus">-</button>
-            <span class="amount">0</span>
-            <button class="plus__minus minus">+</button>
+            <button class="plus__minus minus" data-symbol="-">-</button>
+            <span>0</span>
+            <button class="plus__minus plus" data-symbol="+">+</button>
           </div>
         </div>
         <div class="student">
@@ -309,7 +310,7 @@
           <div class="student__attendance">
             <button class="plus__minus minus">-</button>
             <span class="amount">0</span>
-            <button class="plus__minus minus">+</button>
+            <button class="plus__minus plus">+</button>
           </div>
         </div>
         <div class="student">
@@ -320,9 +321,9 @@
             Ахмедов Алишер
           </p>
           <div class="student__attendance">
-            <button class="plus__minus minus">-</button>
+            <button class="plus__minus minus" data-symbol="-">-</button>
             <span class="amount">0</span>
-            <button class="plus__minus minus">+</button>
+            <button class="plus__minus plus" data-symbol="+">+</button>
           </div>
         </div>
         <div class="student">
@@ -333,9 +334,9 @@
             Амреева Севинч
           </p>
           <div class="student__attendance">
-            <button class="plus__minus minus">-</button>
+            <button class="plus__minus minus" data-symbol="-">-</button>
             <span class="amount">0</span>
-            <button class="plus__minus minus">+</button>
+            <button class="plus__minus plus" data-symbol="+">+</button>
           </div>
         </div>
         <div class="student">
@@ -346,9 +347,9 @@
             Аскаров Абдулазиз
           </p>
           <div class="student__attendance">
-            <button class="plus__minus minus">-</button>
+            <button class="plus__minus minus" data-symbol="-">-</button>
             <span class="amount">0</span>
-            <button class="plus__minus minus">+</button>
+            <button class="plus__minus plus" data-symbol="+">+</button>
           </div>
         </div>
         <div class="student">
@@ -359,9 +360,9 @@
             Аскарова Гульбону
           </p>
           <div class="student__attendance">
-            <button class="plus__minus minus">-</button>
+            <button class="plus__minus minus" data-symbol="-">-</button>
             <span class="amount">0</span>
-            <button class="plus__minus minus">+</button>
+            <button class="plus__minus plus" data-symbol="+">+</button>
           </div>
         </div>
         <div class="student">
@@ -372,9 +373,9 @@
             Беридзе Рашид
           </p>
           <div class="student__attendance">
-            <button class="plus__minus minus">-</button>
+            <button class="plus__minus minus" data-symbol="-">-</button>
             <span class="amount">0</span>
-            <button class="plus__minus minus">+</button>
+            <button class="plus__minus plus" data-symbol="+">+</button>
           </div>
         </div>
         <div class="student">
@@ -385,9 +386,9 @@
             Гофурова Севара
           </p>
           <div class="student__attendance">
-            <button class="plus__minus minus">-</button>
+            <button class="plus__minus minus" data-symbol="-">-</button>
             <span class="amount">0</span>
-            <button class="plus__minus minus">+</button>
+            <button class="plus__minus plus" data-symbol="+">+</button>
           </div>
         </div>
         <div class="student">
@@ -398,9 +399,9 @@
             Джамалова Зарина
           </p>
           <div class="student__attendance">
-            <button class="plus__minus minus">-</button>
+            <button class="plus__minus minus" data-symbol="-">-</button>
             <span class="amount">0</span>
-            <button class="plus__minus minus">+</button>
+            <button class="plus__minus plus" data-symbol="+">+</button>
           </div>
         </div>
         <div class="student">
@@ -411,9 +412,9 @@
             Жураева Зебо
           </p>
           <div class="student__attendance">
-            <button class="plus__minus minus">-</button>
+            <button class="plus__minus minus" data-symbol="-">-</button>
             <span class="amount">0</span>
-            <button class="plus__minus minus">+</button>
+            <button class="plus__minus plus" data-symbol="+">+</button>
           </div>
         </div>
         <div class="student">
@@ -424,9 +425,9 @@
             Зулпукарова Зарина
           </p>
           <div class="student__attendance">
-            <button class="plus__minus minus">-</button>
+            <button class="plus__minus minus" data-symbol="-">-</button>
             <span class="amount">0</span>
-            <button class="plus__minus minus">+</button>
+            <button class="plus__minus plus" data-symbol="+">+</button>
           </div>
         </div>
         <div class="student">
@@ -437,9 +438,9 @@
             Иванова Кристина
           </p>
           <div class="student__attendance">
-            <button class="plus__minus minus">-</button>
+            <button class="plus__minus minus" data-symbol="-">-</button>
             <span class="amount">0</span>
-            <button class="plus__minus minus">+</button>
+            <button class="plus__minus plus" data-symbol="+">+</button>
           </div>
         </div>
         <div class="student">
@@ -450,9 +451,9 @@
             Кахрамонов Абдулазиз
           </p>
           <div class="student__attendance">
-            <button class="plus__minus minus">-</button>
+            <button class="plus__minus minus" data-symbol="-">-</button>
             <span class="amount">0</span>
-            <button class="plus__minus minus">+</button>
+            <button class="plus__minus plus" data-symbol="+">+</button>
           </div>
         </div>
         <div class="student">
@@ -463,9 +464,9 @@
             Косибекова Бернура
           </p>
           <div class="student__attendance">
-            <button class="plus__minus minus">-</button>
+            <button class="plus__minus minus" data-symbol="-">-</button>
             <span class="amount">0</span>
-            <button class="plus__minus minus">+</button>
+            <button class="plus__minus plus" data-symbol="+">+</button>
           </div>
         </div>
         <div class="student">
@@ -476,9 +477,9 @@
             Косимжанова Зулфия
           </p>
           <div class="student__attendance">
-            <button class="plus__minus minus">-</button>
+            <button class="plus__minus minus" data-symbol="-">-</button>
             <span class="amount">0</span>
-            <button class="plus__minus minus">+</button>
+            <button class="plus__minus plus" data-symbol="+">+</button>
           </div>
         </div>
         <div class="student">
@@ -489,9 +490,9 @@
             Мирзамухамедов Хумоюн
           </p>
           <div class="student__attendance">
-            <button class="plus__minus minus">-</button>
+            <button class="plus__minus minus" data-symbol="-">-</button>
             <span class="amount">0</span>
-            <button class="plus__minus minus">+</button>
+            <button class="plus__minus plus" data-symbol="+">+</button>
           </div>
         </div>
         <div class="student">
@@ -502,9 +503,9 @@
             Мирсодиков Мирало
           </p>
           <div class="student__attendance">
-            <button class="plus__minus minus">-</button>
+            <button class="plus__minus minus" data-symbol="-">-</button>
             <span class="amount">0</span>
-            <button class="plus__minus minus">+</button>
+            <button class="plus__minus plus" data-symbol="+">+</button>
           </div>
         </div>
         <div class="student">
@@ -515,9 +516,9 @@
             Раисбаева Сарвиноз
           </p>
           <div class="student__attendance">
-            <button class="plus__minus minus">-</button>
+            <button class="plus__minus minus" data-symbol="-">-</button>
             <span class="amount">0</span>
-            <button class="plus__minus minus">+</button>
+            <button class="plus__minus plus" data-symbol="+">+</button>
           </div>
         </div>
         <div class="student">
@@ -528,9 +529,9 @@
             Саидтохирова Мубинахон
           </p>
           <div class="student__attendance">
-            <button class="plus__minus minus">-</button>
+            <button class="plus__minus minus" data-symbol="-">-</button>
             <span class="amount">0</span>
-            <button class="plus__minus minus">+</button>
+            <button class="plus__minus plus" data-symbol="+">+</button>
           </div>
         </div>
         <div class="student">
@@ -541,9 +542,9 @@
             Собиржонов Азимжон
           </p>
           <div class="student__attendance">
-            <button class="plus__minus minus">-</button>
+            <button class="plus__minus minus" data-symbol="-">-</button>
             <span class="amount">0</span>
-            <button class="plus__minus minus">+</button>
+            <button class="plus__minus plus" data-symbol="+">+</button>
           </div>
         </div>
         <div class="student">
@@ -554,9 +555,9 @@
             Собитжонов Сардор
           </p>
           <div class="student__attendance">
-            <button class="plus__minus minus">-</button>
+            <button class="plus__minus minus" data-symbol="-">-</button>
             <span class="amount">0</span>
-            <button class="plus__minus minus">+</button>
+            <button class="plus__minus plus" data-symbol="+">+</button>
           </div>
         </div>
         <div class="student">
@@ -567,9 +568,9 @@
             Ташназаров Руслан
           </p>
           <div class="student__attendance">
-            <button class="plus__minus minus">-</button>
+            <button class="plus__minus minus" data-symbol="-">-</button>
             <span class="amount">0</span>
-            <button class="plus__minus minus">+</button>
+            <button class="plus__minus plus" data-symbol="+">+</button>
           </div>
         </div>
         <div class="student">
@@ -580,9 +581,9 @@
             Тошкенбаева Ясмина
           </p>
           <div class="student__attendance">
-            <button class="plus__minus minus">-</button>
+            <button class="plus__minus minus" data-symbol="-">-</button>
             <span class="amount">0</span>
-            <button class="plus__minus minus">+</button>
+            <button class="plus__minus plus" data-symbol="+">+</button>
           </div>
         </div>
         <div class="student">
@@ -593,9 +594,9 @@
             Тошкенбаев Фаррух
           </p>
           <div class="student__attendance">
-            <button class="plus__minus minus">-</button>
+            <button class="plus__minus minus" data-symbol="-">-</button>
             <span class="amount">0</span>
-            <button class="plus__minus minus">+</button>
+            <button class="plus__minus plus" data-symbol="+">+</button>
           </div>
         </div>
         <div class="student">
@@ -606,9 +607,9 @@
             Турсунова Гузал
           </p>
           <div class="student__attendance">
-            <button class="plus__minus minus">-</button>
+            <button class="plus__minus minus" data-symbol="-">-</button>
             <span class="amount">0</span>
-            <button class="plus__minus minus">+</button>
+            <button class="plus__minus plus" data-symbol="+">+</button>
           </div>
         </div>
         <div class="student">
@@ -619,9 +620,9 @@
             Хилватуллаев Жорабек
           </p>
           <div class="student__attendance">
-            <button class="plus__minus minus">-</button>
+            <button class="plus__minus minus" data-symbol="-">-</button>
             <span class="amount">0</span>
-            <button class="plus__minus minus">+</button>
+            <button class="plus__minus plus" data-symbol="+">+</button>
           </div>
         </div>
         <div class="student">
@@ -632,9 +633,9 @@
             Юсубжанова Малика
           </p>
           <div class="student__attendance">
-            <button class="plus__minus minus">-</button>
+            <button class="plus__minus minus" data-symbol="-">-</button>
             <span class="amount">0</span>
-            <button class="plus__minus minus">+</button>
+            <button class="plus__minus plus" data-symbol="+">+</button>
           </div>
         </div>
         <div class="student">
@@ -645,9 +646,9 @@
             Бахтияров Эльшод
           </p>
           <div class="student__attendance">
-            <button class="plus__minus minus">-</button>
+            <button class="plus__minus minus" data-symbol="-">-</button>
             <span class="amount">0</span>
-            <button class="plus__minus minus">+</button>
+            <button class="plus__minus plus" data-symbol="+">+</button>
           </div>
         </div>
         <div class="student">
@@ -658,9 +659,9 @@
             Искандарова Перизат
           </p>
           <div class="student__attendance">
-            <button class="plus__minus minus">-</button>
+            <button class="plus__minus minus" data-symbol="-">-</button>
             <span class="amount">0</span>
-            <button class="plus__minus minus">+</button>
+            <button class="plus__minus plus" data-symbol="+">+</button>
           </div>
         </div>
         <div class="student">
@@ -671,9 +672,9 @@
             Искандарова Перизат
           </p>
           <div class="student__attendance">
-            <button class="plus__minus minus">-</button>
+            <button class="plus__minus minus" data-symbol="-">-</button>
             <span class="amount">0</span>
-            <button class="plus__minus minus">+</button>
+            <button class="plus__minus plus" data-symbol="+">+</button>
           </div>
         </div>
         <div class="student">
@@ -684,13 +685,17 @@
             Турсуналиев Абдуллох
           </p>
           <div class="student__attendance">
-            <button class="plus__minus minus">-</button>
+            <button class="plus__minus minus" data-symbol="-">-</button>
             <span class="amount">0</span>
-            <button class="plus__minus minus">+</button>
+            <button class="plus__minus plus" data-symbol="+">+</button>
           </div>
         </div>
        </div>
+       <div class="notThere">
+
+       </div>
       </div>
+
     </section>
   </main>
 

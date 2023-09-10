@@ -1,7 +1,7 @@
 @import 'fonts.css';
 @import 'media.css';
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -30,13 +30,13 @@ img {
     --grey: rgba(234, 228, 228, 0.893);
 }
 
-.nav {;
-    padding:  30px 0;
+.nav {
+    padding: 30px 0;
     background-color: rgb(0, 0, 0);
 }
 
 .nav__logo {
-    color: var(--grey);
+    color: white;
     font-size: 30px;
     font-family: Roboto;
     font-style: normal;
@@ -44,6 +44,7 @@ img {
 }
 
 .nav__content {
+    max-width: 500px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -56,7 +57,7 @@ img {
 }
 
 .list__link {
-    color: var(--grey);
+    color: white;
     font-size: 20px;
     font-family: Roboto;
     font-style: normal;
@@ -68,7 +69,7 @@ img {
 }
 
 .primary__btn:hover {
-    color: white;
+    color: rgb(137, 137, 137);
 }
 
 .header__content {
@@ -114,17 +115,20 @@ img {
 
 .students {
     background-color: black;
-    display: flex;
+    display: none;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
 .students.active {
-    display: none;
+    display: flex;
 }
 
 .admin {
+    gap: 13px;
+    display: flex;
+    align-items: center;
     margin-bottom: 30px;
 }
 
@@ -151,6 +155,15 @@ img {
     font-family: Roboto;
     font-style: normal;
     font-weight: 700;
+}
+
+.plus {
+    transition: 0.4s;
+}
+
+.plus:hover {
+    background: rgb(3, 196, 3);
+    color: white;
 }
 
 .amount {
@@ -180,7 +193,50 @@ img {
     flex-direction: column;
     justify-content: center;
     gap: 20px;
+    max-width: 500px;
 }
 
+.close {
+    color: black;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    border: 1px solid black;
+    padding: 0 5px;
+    transition: 0.3s;
+}
 
-    
+.close:hover {
+    background: red;
+    color: white;
+}
+
+.admin input:nth-child(1) {
+    border: none;
+    outline: none;
+    overflow: hidden;
+}
+
+.minus {
+    display: none;
+}
+
+.amount {
+    display: none;
+}
+
+.notThere {
+    padding: 50px 0;
+}
+
+.student__notThere {
+    padding: 10px;
+    min-width: 400px;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border-bottom: 1px solid grey;
+    gap: 70px;
+
+}
