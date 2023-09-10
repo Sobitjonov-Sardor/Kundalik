@@ -4,7 +4,7 @@ const adminKod = document.querySelector(".admin__kod"),
   close = document.querySelector(".close"), 
   notThere = document.querySelector(".notThere"); 
  
-let kod = ""; 
+let kod = "2020"; 
  
 send.addEventListener("click", (e) => { 
   e.preventDefault(); 
