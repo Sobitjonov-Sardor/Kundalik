@@ -1,10 +1,9 @@
 const adminKod = document.querySelector(".admin__kod"), 
   students = document.querySelector(".students"), 
-  send = document.querySelector(".send"), 
-  close = document.querySelector(".close"), 
-  notThere = document.querySelector(".notThere"); 
+  send = document.querySelector(".send"),
+  close = document.querySelector('.close');
  
-let kod = ""; 
+let kod = "2020"; 
  
 send.addEventListener("click", (e) => { 
   e.preventDefault(); 
@@ -13,14 +12,14 @@ send.addEventListener("click", (e) => {
  
 function Admin() { 
   if (kod === adminKod.value) { 
-    students.classList.remove("active"); 
-  } else { 
     students.classList.add("active"); 
+  } else { 
+    students.classList.remove("active"); 
   } 
-} 
+}
  
 close.addEventListener("click", function () { 
-  students.classList.add("active"); 
+  students.classList.remove("active"); 
 }); 
  
 const student = document.querySelectorAll(".student"); 
