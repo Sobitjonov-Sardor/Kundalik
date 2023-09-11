@@ -13,9 +13,9 @@ send.addEventListener("click", (e) => {
  
 function Admin() { 
   if (kod === adminKod.value) { 
-    students.classList.remove("active"); 
-  } else { 
     students.classList.add("active"); 
+  } else { 
+    students.classList.remove("active"); 
   } 
 } 
  
