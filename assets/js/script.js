@@ -4,7 +4,7 @@ const adminKod = document.querySelector(".admin__kod"),
   close = document.querySelector(".close"), 
   notThere = document.querySelector(".notThere"); 
  
-let kod = "2020"; 
+let kod = '2020'; 
  
 send.addEventListener("click", (e) => { 
   e.preventDefault(); 
@@ -20,7 +20,7 @@ function Admin() {
 } 
  
 close.addEventListener("click", function () { 
-  students.classList.add("active"); 
+  students.classList.remove("active"); 
 }); 
  
 const student = document.querySelectorAll(".student"); 
